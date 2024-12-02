@@ -8,6 +8,7 @@ foreach ($data as $line) {
     $left[] = $parts[0];
     $right[] = $parts[1];
 }
+
 sort($left);
 sort($right);
 
